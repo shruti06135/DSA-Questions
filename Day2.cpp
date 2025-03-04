@@ -15,7 +15,7 @@ class Solution {
       }
       
     public:
-      int isGoodorBad(string S) {
+      int isGoodorBad(string S) { 
         int n=S.length();
         int c=0;
         int v=0;
