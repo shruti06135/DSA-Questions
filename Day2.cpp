@@ -39,7 +39,7 @@ class Solution {
 };
 
 // Question 2 : 2570. Merge two 2D arrays by summing values
-// Link : https://leetcode.com/problems/number-of-equivalent-domino-pairs/?envType=problem-list-v2&envId=2030iluv
+// Link : https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/
 
 class Solution {
     public:
