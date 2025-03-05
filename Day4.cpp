@@ -28,3 +28,16 @@ class Solution {
           return diff;
       }
   };
+
+
+// POTD : 2579. Count total number of coloured cells
+// Link : https://leetcode.com/problems/count-total-number-of-colored-cells/description/?envType=daily-question&envId=2025-03-05 
+
+class Solution {
+    public:
+        long long coloredCells(int n) {
+            long long x=n;
+            long long ans=1+2*x*(x-1);
+            return ans;
+        }
+    };
