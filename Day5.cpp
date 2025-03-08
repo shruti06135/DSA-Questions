@@ -1,6 +1,26 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Question 1 : 2591. Distribute money to maximum children
+// Link : https://leetcode.com/problems/distribute-money-to-maximum-children/description/?envType=problem-list-v2&envId=math
+
+class Solution {
+    public:
+        int distMoney(int money, int children) {
+            if(money<children) return -1;
+            money=money-children;
+            int cnt=0;
+            while(money>=7 && children>0){
+                money-=7;
+                children--;
+                cnt++;
+            }    
+            if(money==0) return cnt;
+            else if((money!=0 && children==0) || (money==3 &&children==1)) cnt--;
+            return cnt;
+        }
+    };
+
 // Question 2 : 409. Longest palindrome
 // Link : https://leetcode.com/problems/longest-palindrome/description/?envType=problem-list-v2&envId=greedy
 
