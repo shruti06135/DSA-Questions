@@ -20,7 +20,8 @@ class Solution {
         }
 };
 
-// Question 2 : 
+// Question 2 : 14. Longest common prefix
+// Link : https://leetcode.com/problems/longest-common-prefix/description/
 
 
 class Solution {
