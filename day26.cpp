@@ -4,17 +4,16 @@ using namespace std;
 // Question 1 : Doubly linked list Insertion at given position
 // Link : https://www.geeksforgeeks.org/problems/insert-a-node-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=insert-a-node-in-doubly-linked-list
 
-/* a Node of the doubly linked list
+// a Node of the doubly linked list
 struct Node {
   int data;
   struct Node *next;
   struct Node *prev;
   Node(int x) { data = x; next = prev = NULL; }
-}; 
-*/
+};
 
 // Function to insert a new node at given position in doubly linked list.
-class Solution {
+class Solution { 
     public:
       // Function to insert a new node at given position in doubly linked list.
       Node *addNode(Node *head, int pos, int data) {
@@ -41,14 +40,13 @@ class Solution {
 // Question 2 : Search in Linked List
 // Link : https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-linked-list-1664434326
 
-/* Link list node */
-/*
+// Link list node
 struct Node
 {
     int data;
     Node* next;
     Node(int x) {  data = x;  next = NULL; }
-}; */
+};
 
 class Solution {
     public:
