@@ -4,14 +4,14 @@ using namespace std;
 // Question 1 : 237. Delete node in a linked list
 // Link : https://leetcode.com/problems/delete-node-in-a-linked-list/description/
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
+
+//  Definition for singly-linked list.
+  struct ListNode {
+      int val;
+      ListNode *next;
+      ListNode(int x) : val(x), next(NULL) {}
+  };
+ 
 class Solution {
     public:
         void deleteNode(ListNode* node) {
@@ -34,7 +34,7 @@ class Solution {
 // Question 2 : Linked list insertion at end
 // Link : https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=linked-list-insertion
 
-/*Structure of the linked list node is as
+// Structure of the linked list node is as
 struct Node {
   int data;
   struct Node * next;
@@ -42,7 +42,7 @@ struct Node {
     data = x;
     next = NULL;
   }
-}; */
+};
 
 class Solution {
     public:
