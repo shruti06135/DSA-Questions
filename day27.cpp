@@ -4,7 +4,7 @@ using namespace std;
 // Question 1 : Reverse a doubly linked list
 // Link : https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-doubly-linked-list
 
-/*
+
 class DLLNode {
   public:
     int data;
@@ -17,7 +17,7 @@ class DLLNode {
         this->prev = NULL;
     }
 };
-*/
+
 class Solution {
     public:
       // Function to reverse a doubly linked list
@@ -40,7 +40,7 @@ class Solution {
 // Question 2 : Delete in a doubly linked list
 // Link : https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=delete-node-in-doubly-linked-list
 
-/* Structure of Node
+// Structure of Node
 class Node {
   public:
     int data;
@@ -53,7 +53,6 @@ class Node {
         this->prev = NULL;
     }
 };
-*/
 
 class Solution {
     public:
